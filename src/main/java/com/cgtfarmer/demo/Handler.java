@@ -15,7 +15,7 @@ import java.util.Map;
  *   X = event type
  *   Y = return type
  */
-public class Handler implements RequestHandler<LambdaDestinationEvent, Map<String, String>>{
+public class Handler implements RequestHandler<LambdaDestinationEvent, Map<String, String>> {
 
   @Override
   public Map<String, String> handleRequest(LambdaDestinationEvent event, Context context) {
